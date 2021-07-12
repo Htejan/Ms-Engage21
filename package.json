@@ -4,7 +4,7 @@
   "description": "A jitsi meet component & hook moulded with react's chakra",
   "author": "Filipe Herculano",
   "license": "MIT",
-  "homepage": "https://this-fifo.github.io/jutsu/",
+  "homepage": "https://Htejan.github.io/Ms-Project",
   "repository": {
     "type": "git",
     "url": "https://github.com/this-fifo/jutsu.git"
@@ -28,13 +28,14 @@
     "npm": ">=5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "yarn run build",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "prepare": "yarn run build"
+   
   },
   "husky": {
     "hooks": {
