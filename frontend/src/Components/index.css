@@ -1,0 +1,217 @@
+/* @media only screen and (min-width: 1025px) {
+  body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.buttons {
+  width: fit-content;
+  /* margin: auto; */
+  margin-top: 8px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #24a0ed;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  padding: 10px;
+}
+/* .App {
+  text-align: center;
+} */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  font-size: large;
+  min-height: 3vh;
+  background: #1c95e0;
+  color: white;
+}
+.form {
+  /* margin-top: 0; */
+  margin: auto 70vh;
+
+  padding: 0;
+  display: inline-block;
+  width: 100vh;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.flb ::placeholder {
+  font: 500 14px/16px "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  letter-spacing: 0.15px;
+  color: rgb(79, 176, 236);
+}
+.flb input {
+  /* align-content: center; */
+
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 4px;
+  width: 300px;
+  border-radius: 8px;
+  padding: 8px 40px;
+  padding-bottom: 4px;
+  text-align: center;
+  /* white-space: nowrap #ccffee; */
+
+  border-style: ridge;
+  border-color: #c7ffff;
+
+  background-color: #c7ffff;
+  align-items: center;
+}
+/* .fld {
+  display: inline-block;
+  align-items: center;
+} */
+input {
+  margin: 7px;
+  flex-direction: column;
+  display: inline-block;
+  align-self: center;
+}
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.listing {
+  margin-top: auto;
+  padding: 6px 0;
+  text-decoration: none;
+}
+/* header */
+.mainHead {
+  height: 82vh;
+  /* background-color: #1a73e8; */
+  background-color: cyan;
+  font: 500 14px/16px "Roboto", sans-serif;
+}
+
+.heading {
+  /* display: flex; */
+
+  margin-left: 30vh;
+  margin-inline-start: 4px;
+  margin-bottom: 4vh;
+  font: 500 46px/56px "Roboto", sans-serif;
+  height: 6vh;
+  align-items: center;
+}
+/*content*/
+.jutsu {
+  display: flex;
+  margin-left: 50vh;
+  align-items: center;
+}
+/*content*/
+
+/*footer*/
+#sm-footer {
+  /* position: fixed; */
+  bottom: 10vh;
+  background-color: black;
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.socials {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.foot {
+  display: flex;
+  background-color: black;
+  /* margin-top: 90vh; */
+  top: 110vh;
+  /* bottom: 0; */
+  height: 4vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* footer*/
+/* documentation page */
+
+.mainHeadDocs {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    Sans-Serif;
+  font-size: 20px;
+  background-color: cyan;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.pc {
+  line-height: 40px;
+}
+
+#main-doc {
+  display: flex;
+  flex-direction: column;
+}
+
+/*================= Main Content ==================*/
+.contentDocs {
+  margin: 0 20px 20px;
+}
+
+.main-section {
+  min-height: 55vh;
+  width: 100%;
+  border-bottom: 2px dashed red;
+}
+
+.main-section header {
+  color: black;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.main-section ul li,
+.main-section ol li {
+  margin-bottom: 15px;
+}
+
+/*============== Media query ================*/
+@media (min-width: 100vw) {
+  #main-doc {
+    flex-direction: row;
+  }
+
+  .divider {
+    width: 100%;
+    margin: 0;
+    min-height: 100px;
+    background-color: #3700b3;
+  }
+}
+/* documentation page */
