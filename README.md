@@ -8,3 +8,4 @@
 >>    yarn   //add the dependencies  
 >>    yarn start  // starts the react-app server  
 >>  5)Enjoy the Buddy Hangouts!!!.😉😎  
+>>  Video Chat-Application(Web App) : A video conferencing app with real-time audio, video chat functionality and having features like screen sharing, chatting, individual room >>  creation with password protection for joining a online meeting. It is developed by using Reactjs ,Jitsi (a free open-source video conferencing software for web & mobile).  
